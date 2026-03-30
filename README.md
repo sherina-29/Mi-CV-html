@@ -1,2 +1,2 @@
 # Mi-CV-html
-Proyecto de CV usando HTML
+Proyecto de CV usando HTML semántico.
