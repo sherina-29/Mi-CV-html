@@ -9,7 +9,7 @@ body {
 .cv-container {
   max-width: 900px;
   margin: 0 auto;
-  background-color: white;
+  background-color: red; /* Cámbialo a rojo solo para probar */
   padding: 30px;
   border-radius: 12px;
 }
