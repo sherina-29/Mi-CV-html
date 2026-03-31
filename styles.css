@@ -8,10 +8,12 @@ body {
 
 .cv-container {
   max-width: 900px;
-  margin: 0 auto;
-  background-color: red; /* Cámbialo a rojo solo para probar */
-  padding: 30px;
+  margin: 40px auto; /* 40px arriba/abajo para que no pegue al techo */
+  background-color: white;
+  padding: 40px;
   border-radius: 12px;
+  /* Esta sombra es el truco para que se vea moderno */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
 }
 
 header {
@@ -37,11 +39,13 @@ section {
 }
 
 h2 {
-  color: #0f172a;
-  font-size: 24px;
-  border-left: 5px solid #2563eb;
-  padding-left: 10px;
+  color: #2c3e50; /* Azul oscuro profesional */
+  border-bottom: 2px solid #3498db; /* Línea azul sutil */
+  padding-bottom: 8px;
+  margin-top: 30px;
   margin-bottom: 15px;
+  text-transform: uppercase; /* Opcional: pone los títulos en mayúsculas */
+  font-size: 1.2rem;
 }
 
 p {
